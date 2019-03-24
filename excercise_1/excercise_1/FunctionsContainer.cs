@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace Excercise_1
 {
     public delegate double funcDelegate(double val);
-    //public delegate double culcFunc(double val);
     public class FunctionsContainer
     {
         private Dictionary<string, funcDelegate> dic_func;
@@ -15,7 +14,6 @@ namespace Excercise_1
         {
             this.dic_func = new Dictionary<string, funcDelegate>();
         }
-        //private Dictionary<string, funcDelegate> dic_func = new Dictionary<string, funcDelegate>();
         /*
          * creates the indexer whitch gets a string that represents a function
          */
@@ -32,14 +30,13 @@ namespace Excercise_1
 
             set
             {
-                //funcDelegate func += new funcDelegate(value);
                 dic_func[functionName] = value;
             }
         }
 
-        public List<string> getAllMissions()//TODO: check changeing to collection
+        public ICollection<string> getAllMissions()
         {
-            return new List<string>(this.dic_func.Keys);//return this.funcsMap.Keys;
+            return this.dic_func.Keys;
         }
 
     }
