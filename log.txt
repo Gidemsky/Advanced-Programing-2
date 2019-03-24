@@ -1,0 +1,23 @@
+commit a64714953e5dd774ebd05fa4f340c13a1ab70841
+Author: Gideon Dembovsky <Gidemsky26@gmail.com>
+Date:   Sun Mar 24 22:33:38 2019 +0200
+
+    update
+
+commit 4ed0e6a22fffe78d148a5cff1303983491cc095f
+Author: Gideon Dembovsky <Gidemsky26@gmail.com>
+Date:   Sun Mar 24 22:27:57 2019 +0200
+
+    excersice 1
+
+commit 0f4d60743abee9df13791ec27b35960d5539b920
+Author: Gideon Dembovsky <Gidemsky26@gmail.com>
+Date:   Sun Mar 24 22:17:18 2019 +0200
+
+    check
+
+commit 8d3593f90d2af70d23540cdc9d4ffde6e9fb780f
+Author: Gideon Dembovsky <Gidemsky26@gmail.com>
+Date:   Sun Mar 24 22:09:02 2019 +0200
+
+    inital comming
